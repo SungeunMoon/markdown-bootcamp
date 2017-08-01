@@ -2,18 +2,19 @@
 
 Markdown
 ====
----
+<br />
 
-배워야 하는 이유
------
+### 배워야 하는 이유
 
 1.	텍스트 파일이기 떄문에 버전관리시스템을 이용하여 **변경이력을 관리**할 수 있다.
 2.	간단한 문법을 통해 문서의 표시를 제어하고 굵게 또는 기울임을 통해 단어 **서식을 지정**하고, 이미지 추가, 목록을 만듭니다.
 <br />
 <br />
 <br />
-문법
--------
+
+### 문법
+
+
 <table>
 <tr style=text-align:center>
 <td></td>
@@ -89,8 +90,8 @@ Markdown
 </tr>
 <tr>
 <td style=text-align:center><strong>인라인<br />주소삽입</strong></td>
-<td>1. 주소 대신 단어가 보이는 링크입니다.<br />2. \[주소에 대한 설명](주소)</td>
-<td colspan=2>\[Mirero](http://www.mirero.co.kr)</td>
+<td>1. 주소 대신 단어가 보이는 링크입니다.<br />2. [주소에 대한 설명](주소)</td>
+<td colspan=2>[Mirero](http://www.mirero.co.kr)</td>
 <td></td>
 <td><a href="http://www.mirero.co.kr">Mirero</a></td>
 </tr>
@@ -127,7 +128,7 @@ Markdown
 <tr>
 <td style=text-align:center><strong>글머리기호<br />목록</strong></td>
 <td>1. -(대시), +(덧셈기호), *(별표)를 연속적으로 사용하면 됩니다.</td>
-<td colspan=2>\* 사과<br />\* 바나나<br />\* 오렌지<br />\* 포도<hr>- 사과<br />- 바나나<br />- 오렌지<br />- 포도</td>
+<td colspan=2>* 사과<br />* 바나나<br />* 오렌지<br />* 포도<hr>- 사과<br />- 바나나<br />- 오렌지<br />- 포도</td>
 <td></td>
 <td><ul><li>사과</li><li>바나나</li><li>오렌지</li><li>포도</li></ul></td>
 </tr>
