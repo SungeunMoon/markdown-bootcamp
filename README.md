@@ -4,15 +4,16 @@ Markdown
 ====
 ---
 
-#### 배워야 하는 이유
+배워야 하는 이유
+-----
 
 1.	텍스트 파일이기 떄문에 버전관리시스템을 이용하여 **변경이력을 관리**할 수 있다.
 2.	간단한 문법을 통해 문서의 표시를 제어하고 굵게 또는 기울임을 통해 단어 **서식을 지정**하고, 이미지 추가, 목록을 만듭니다.
 <br />
 <br />
 <br />
-#### 문법
-
+문법
+-------
 <table>
 <tr style=text-align:center>
 <td></td>
@@ -33,34 +34,35 @@ Markdown
 <td style=text-align:center><strong>개행<br />(줄바꿈)</strong></td>
 <td>1. 강제로 줄바꿈 하고 싶을 경우 사용한다.</td>
 <td colspan=2>두 개의 공백 (&nbsp&nbsp&nbsp&nbsp)<br />여백사이에 < br / >을 입력</td>
-<td>백 슬래시 (\\)</td>
+<td>백 슬래시 (\)</td>
 <td>문단 1이다.<br />문단 2이다.</td>
 </tr>
 <tr>
 <td style=text-align:center><strong>제목<br />Header</strong></td>
 <td>1. 가장 많이 쓰게 되는 서식 중 하나입니다.<br />2. 해시태그(#)를 앞, 뒤에 모두 붙여도 되고, 앞에만 붙여도 됩니다. <br />3. 글머리 1~6까지만 지원됩니다.<br />4. 해시태그(#) 개수가 늘어날 때마다 제목의 수준이 내려간다.</td>
-<td colspan=2># 1번째 수준 제목 (H1) <br />## 2번째 수준 제목 (H2) <br />### 3번째 수준 제목 (H3) <br />#### 4번째 수준 제목 (H4) <br />##### 5번째 수준 제목 (H5) <br />###### 6번째 수준 제목 (H6) <br /><hr>H1<br />========<br />H2<br />--------------</td>
+<td># 1번째 수준 제목 (H1) <br />## 2번째 수준 제목 (H2) <br />### 3번째 수준 제목 (H3) <br />#### 4번째 수준 제목 (H4) <br />##### 5번째 수준 제목 (H5) <br />###### 6번째 수준 제목 (H6) <br /><hr>H1<br />========<br />H2<br />--------------</td>
+<td>H1<br />========<br />H2<br />--------------</td>
 <td></td>
 <td><h1>H1</h1><h2>H2</h2><h3>H3</h3><h4>H4</h4><h5>H5</h5><h6>H6</h6></td>
 </tr>
 <tr>
 <td style=text-align:center><strong>기울기<br />italic</strong></td>
 <td></td>
-<td colspan=2>\*텍스트\*<br />\_텍스트\_</td>
+<td colspan=2>*텍스트*<br />_텍스트_</td>
 <td></td>
 <td><em>텍스트</em></td>
 </tr>
 <tr>
 <td style=text-align:center><strong>굵기<br />Bold</strong></td>
 <td></td>
-<td colspan=2>\*\*텍스트\*\*<br />\_\_텍스트\_\_</td>
+<td colspan=2>**텍스트**<br />__텍스트__</td>
 <td></td>
 <td><strong>텍스트</strong></td>
 </tr>
 <tr>
 <td style=text-align:center><strong>굵고<br />기울게</strong></td>
 <td></td>
-<td colspan=2>\*\*\*텍스트\*\*\*<br />\_\_\_텍스트\_\_\_</td>
+<td colspan=2>***텍스트***<br />___텍스트___</td>
 <td></td>
 <td><strong><em>텍스트</em></strong></td>
 </tr>
