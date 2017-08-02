@@ -23,7 +23,7 @@ Markdown
 </tr>
 <tr>
 <td style=text-align:center><strong>문단<br />나누기</strong></td>
-<td colspan=2>1. 문단이란 하나 이상의 문장의 집합니다.<br>2. 한 문단과 다음 문단은 하나 이상의 빈 줄로 구분된다.<br /><hr>문단1 이다.<br>(빈줄)<br>문단2 이다.</td>
+<td colspan=2>1. 문단이란 하나 이상의 문장의 집합니다.<br>2. 하나 이상의 빈 줄로 구분된다.<br />3. 작성자 : 수정이 편지<br />4. 읽는 사람 : 가독성 향상<br /><hr>문단1 이다.<br>(빈줄)<br>문단2 이다.</td>
 <td></td>
 <td>문단1 이다.<br><br>문단2 이다.</td>
 </tr>
