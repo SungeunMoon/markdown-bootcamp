@@ -1,12 +1,10 @@
-
-
 Markdown
 ====
 <br />
 
 ### 배워야 하는 이유
 
-1.	텍스트 파일이기 때문에 버전관리시스템을 이용하여 **변경이력을 관리**할 수 있다.
+1.	텍스트 파일이기 때문에 버전관리시스템을 이용하여 **변경이력을 관리**할 수 있다.<br />
 2.	간단한 문법을 통해 문서의 표시를 제어하고 굵게 또는 기울임을 통해 단어 **서식을 지정**하고, 이미지 추가, 목록을 만듭니다.
 <br />
 <br />
@@ -85,15 +83,15 @@ Markdown
 </tr>
 <tr>
 <td style=text-align:center><strong>참조링크<br />삽입</strong></td>
-<td colspan=2></td>
+<td colspan=2>1. 링크 삽입 : [주소에 대한 설명] [참조 번호]<br />2. 참조 번호 작성 : [참조 번호]: 주소<br /><hr>이 부분은 [Google] [1]을 참조하시면 됩니다.<br />[1]: http://www.google.com</td>
 <td></td>
-<td></td>
+<td>이 부분은 <a href="http://www.google.com">Google 1</a>을 참조하시면 됩니다.</td>
 </tr>
 <tr>
 <td style=text-align:center><strong>함축적링크<br />삽입<strong></strong></td>
 <td colspan=2>1. 링크 삽입 : [참조 이름]<br />2. 참조 이름 작성 : [참조 이름]: 주소<br /><hr>이 부분은 [Google]을 참조하시면 됩니다.<br />[Google]: http://www.google.com</td>
 <td></td>
-<td>이 부분은 [<a href="www/google.com">GooGle</a>]을 참조하시면 됩니다.<br />[<a href="www/google.com">GooGle</a>]: http://www.google.com</td>
+<td>이 부분은 [<a href="www/google.com">Google</a>]을 참조하시면 됩니다.<br />[<a href="www/google.com">Google</a>]: http://www.google.com</td>
 </tr>
 <tr>
 <td style=text-align:center><strong>URL주소삽입<strong></strong></td>
@@ -102,7 +100,11 @@ Markdown
 <td>Mirero System 홈페이지 주소는 <a href="http://www.mirero.co.kr">http://www.mirero.co.kr</a> 입니다.</td>
 </tr>
 <tr>
-<td style=text-align:center><strong>그림삽입<strong></strong></td><td colspan=2></td><td></td><td></td></tr>
+<td style=text-align:center><strong>그림삽입<strong></strong></td>
+<td colspan=2>1. 인라인 주소 삽입 문법 그대로 앞에 !(느낌표)만 추가하면 된다.<br />2. ![그림주소](그림주소)<br /><hr>![구글 로고](http://www.google.co.kr/images/srpr/logo11w.png)</td>
+<td></td>
+<td><img src="http://www.google.co.kr/images/srpr/logo11w.png" /></td>
+</tr>
 <tr>
 <td style=text-align:center><strong>숫자목록</strong></td>
 <td colspan=2>1. 숫자를 연속적으로 사용하면 됩니다.<br /><hr>1. 사과<br />2. 바나나<br />3. 오렌지<br />4. 포도</td>
